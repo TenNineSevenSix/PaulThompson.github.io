@@ -87,7 +87,8 @@ body {
 
 .jumbotron {
   height: 900px;
-  background: url(images/fullstack.png);
+  /*background: url(images/fullstack.png);*/
+  background: #fff;
   background-repeat: no-repeat;
   background-position: center;
   margin: 0;
