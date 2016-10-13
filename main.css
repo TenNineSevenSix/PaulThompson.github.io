@@ -93,8 +93,6 @@ color: #EB5757;
 
 .jumbotron {
   height: 900px;
-  /*background: url(images/fullstack.png);*/
-  /*background: url(images/paul-thompson.jpg);*/
   background-image: url(images/fullstack.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -102,14 +100,12 @@ color: #EB5757;
 }
 
 .jumbotron.j2 {
-  /*height: 9px;*/
   background: url(images/onalimb.png);
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .jumbotron.j3 {
-  height: 944px;
   background: url(images/learn.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -117,18 +113,13 @@ color: #EB5757;
 
 .jumbotron h1 {
   color: #fff;
-
 }
 
-.jumbotron.display- h1 {
+.jumbotron.j2 h1 {
   color: #fff;
 
 }
 
-.jumbotron.j2 h1 {
-  color: #4F4F4F;
-
-}
 .jumbotron.j3 h1 {
   color: #fff;
 
