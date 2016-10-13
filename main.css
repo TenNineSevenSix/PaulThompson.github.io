@@ -114,9 +114,9 @@ color: #EB5757;
   text-align: center;
 }
 
-.row.r2 {
+/*.row.r2 {
   text-align: left;
-}
+}*/
 
 .commsbanner {
   text-align: center;
@@ -176,8 +176,6 @@ color: #EB5757;
 .lead {
   color: #EB5757;
   font-size: 40px;
-  padding-left: 150px;
-  padding-right: 150px;
 }
 
 .lead.l1 {
