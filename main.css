@@ -187,8 +187,13 @@ color: #EB5757;
 }
 
 .btn:visited {
-  color: #F2F2F2;
+  color: #fff;
 }
+
+.btn:focus {
+  color: #fff;
+}
+
 
 #home h1 {
   margin: 0;
