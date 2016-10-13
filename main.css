@@ -8,52 +8,54 @@
   .lead.l2 h2 { font-size: 5px;}
 }
 
+/*@media only screen and (min-width: 768px) {
+  .jumbotron {
+      /* The image used */
+      background-image: url("images/fullstack.png");
+
+      /* Set a specific height */
+      height: 700px;
+
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+
+  .jumbotron.j2 {
+      /* The image used */
+      background-image: url("images/onalimb.png");
+
+      /* Set a specific height */
+      height: 700px;
+
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+
+  .jumbotron.j3 {
+      /* The image used */
+      background-image: url("images/learn.png");
+
+      /* Set a specific height */
+      height: 900px;
+
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+
+}*/
+
 body {
   position: relative;
 }
-
-.parallax {
-    /* The image used */
-    background-image: url("images/fullstack.png");
-
-    /* Set a specific height */
-    height: 600px;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.parallax.p2 {
-    /* The image used */
-    background-image: url("images/onalimb.png");
-
-    /* Set a specific height */
-    height: 600px;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.parallax.p3 {
-    /* The image used */
-    background-image: url("images/learn.png");
-
-    /* Set a specific height */
-    height: 600px;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 
 .display-3 h1 {
   color: #fff;
@@ -63,12 +65,7 @@ body {
 .navbar.navbar-fixed-top.navbar-light.bg-faded {
   margin: 0;
   padding: 0;
-
 }
-/*.navbar-light .navbar-nav .nav-link.active {
-  color: #fff;
-  background-color: #EB5757;
-}*/
 
 .nav-link {
   padding: 5px;
@@ -99,7 +96,6 @@ body {
 
 .navbar-light .navbar-nav .nav-link.active {
 color: #EB5757;
-
 }
 
 .navbar-light .navbar-nav .nav-link:visited {
@@ -128,32 +124,36 @@ color: #EB5757;
   border-radius: 6px;
 }
 
-.fa.fa-github, .fa.fa-linkedin-square {
+.fa.fa-github, .fa.fa-linkedin-square, .fa.fa-mobile {
   font-size: 45px;
   color: #fff;
   text-align: center;
+  text-decoration: none;
 }
 
 .jumbotron {
-  height: 700px;
-  /*background-image: url(images/fullstack.png);*/
+  height: 800px;
+  background-image: url(images/PAUL-THOMPSON-crop.svg);
   background-repeat: no-repeat;
   background-position: center;
   margin: 0;
+  border-radius: 0px;
 }
 
 .jumbotron.j2 {
-  height: 700px;
-  /*background: url(images/onalimb.png);*/
+  height: 900px;
+  background: url(images/onalimb.png);
   background-repeat: no-repeat;
   background-position: center;
+  border-radius: 0px;
 }
 
 .jumbotron.j3 {
   height: 900px;
-  /*background: url(images/learn.png);*/
+  background: url(images/learn.png);
   background-repeat: no-repeat;
   background-position: center;
+  border-radius: 0px;
 }
 
 .jumbotron h1 {
@@ -162,12 +162,10 @@ color: #EB5757;
 
 .jumbotron.j2 h1 {
   color: #fff;
-
 }
 
 .jumbotron.j3 h1 {
   color: #fff;
-
 }
 
 .itil, .pm {
@@ -178,12 +176,15 @@ color: #EB5757;
 .lead {
   color: #EB5757;
   font-size: 40px;
+  padding-left: 150px;
+  padding-right: 150px;
 }
-
 
 .lead.l1 {
   color: #EB5757;
   font-size: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .lead.l2 {
@@ -216,6 +217,10 @@ color: #EB5757;
   padding: 0.75em 0.75em;
 }
 
+.card-header h5 {
+  font-size: 16px;
+}
+
 .card p {
   font-size: 12px;
   display: block;
@@ -238,7 +243,6 @@ color: #EB5757;
 .btn:focus {
   color: #fff;
 }
-
 
 #home h1 {
   margin: 0;
