@@ -12,6 +12,49 @@ body {
   position: relative;
 }
 
+.parallax {
+    /* The image used */
+    background-image: url("images/fullstack.png");
+
+    /* Set a specific height */
+    height: 600px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax.p2 {
+    /* The image used */
+    background-image: url("images/onalimb.png");
+
+    /* Set a specific height */
+    height: 600px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax.p3 {
+    /* The image used */
+    background-image: url("images/learn.png");
+
+    /* Set a specific height */
+    height: 600px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
 .display-3 h1 {
   color: #fff;
 }
@@ -92,21 +135,23 @@ color: #EB5757;
 }
 
 .jumbotron {
-  height: 900px;
-  background-image: url(images/fullstack.png);
+  height: 700px;
+  /*background-image: url(images/fullstack.png);*/
   background-repeat: no-repeat;
   background-position: center;
   margin: 0;
 }
 
 .jumbotron.j2 {
-  background: url(images/onalimb.png);
+  height: 700px;
+  /*background: url(images/onalimb.png);*/
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .jumbotron.j3 {
-  background: url(images/learn.png);
+  height: 900px;
+  /*background: url(images/learn.png);*/
   background-repeat: no-repeat;
   background-position: center;
 }
