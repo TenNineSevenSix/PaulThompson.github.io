@@ -4,53 +4,6 @@
   font-family: 'Open Sans', sans-serif;
 }
 
-@media only screen and (max-width: 320px) {
-  .lead.l2 h2 { font-size: 5px;}
-}
-
-/*@media only screen and (min-width: 768px) {
-  .jumbotron {
-      /* The image used */
-      background-image: url("images/fullstack.png");
-
-      /* Set a specific height */
-      height: 700px;
-
-      /* Create the parallax scrolling effect */
-      background-attachment: fixed;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-  }
-
-  .jumbotron.j2 {
-      /* The image used */
-      background-image: url("images/onalimb.png");
-
-      /* Set a specific height */
-      height: 700px;
-
-      /* Create the parallax scrolling effect */
-      background-attachment: fixed;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-  }
-
-  .jumbotron.j3 {
-      /* The image used */
-      background-image: url("images/learn.png");
-
-      /* Set a specific height */
-      height: 900px;
-
-      /* Create the parallax scrolling effect */
-      background-attachment: fixed;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-  }
-
 }*/
 
 body {
@@ -131,7 +84,7 @@ color: #EB5757;
   text-decoration: none;
 }
 
-.jumbotron {
+.jumbotron.jumbotron-fluid {
   height: 800px;
   background-image: url(images/PAUL-THOMPSON-crop.png);
   background-repeat: no-repeat;
@@ -140,16 +93,16 @@ color: #EB5757;
   border-radius: 0px;
 }
 
-.jumbotron.j2 {
-  height: 900px;
+.jumbotron.j2.jumbotron-fluid {
+  height: 800px;
   background: url(images/onalimb.png);
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 0px;
 }
 
-.jumbotron.j3 {
-  height: 900px;
+.jumbotron.j3.jumbotron-fluid {
+  height: 800px;
   background: url(images/learn.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -221,6 +174,12 @@ color: #EB5757;
 
 .card p {
   font-size: 12px;
+  display: block;
+  text-align: center;
+}
+
+.p2 p {
+  font-size: 30px;
   display: block;
   text-align: center;
 }
