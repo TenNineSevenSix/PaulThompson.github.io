@@ -82,7 +82,7 @@ color: #EB5757;
 
 .jumbotron.jumbotron-fluid {
   height: 850px;
-  background-image: url(/images/home-page-bg.jpg);
+  background-image: url(images/home-page-bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
   margin: 0;
@@ -99,7 +99,7 @@ color: #EB5757;
 
 .jumbotron.j3.jumbotron-fluid {
   height: 850px;
-  background: url(/images/skills-page-bg.jpg);
+  background: url(images/skills-page-bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 0px;
