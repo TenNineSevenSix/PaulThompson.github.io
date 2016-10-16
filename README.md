@@ -38,8 +38,9 @@ I've found that influences can be both inspiring and confusing but are very impo
 - DevIcons - awesome!
 - Bootstrap 4.
 - Treehouse (Bootstrap 4)
-- Circular Chaos http://circularchaos.com/ - was a big influence at the start in terms of colour.
+- [Circular Chaos][4] - was a big influence at the start in terms of colour.
 - The people at Coder Factory, Melbourne.
+[4]: http://circularchaos.com/ "strong influence on colours"
 
 ## CSS
 
