@@ -81,8 +81,8 @@ color: #EB5757;
 }
 
 .jumbotron.jumbotron-fluid {
-  height: 800px;
-  background-image: url(images/fullstack.png);
+  height: 850px;
+  background-image: url(images/home-page-bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
   margin: 0;
@@ -90,16 +90,16 @@ color: #EB5757;
 }
 
 .jumbotron.j2.jumbotron-fluid {
-  height: 800px;
-  background: url(images/onalimb.png);
+  height: 850px;
+  background: url(images/about-page-bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 0px;
 }
 
 .jumbotron.j3.jumbotron-fluid {
-  height: 800px;
-  background: url(images/learn.png);
+  height: 850px;
+  background: url(images/skills-page-bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 0px;
@@ -107,7 +107,7 @@ color: #EB5757;
 
 .jumbotron.j4.jumbotron-fluid {
   height:795px;
-  background: url(images/PAUL-THOMPSON-crop.png);
+  background: url(images/contact-page-bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 0px;
