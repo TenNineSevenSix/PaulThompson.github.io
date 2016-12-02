@@ -12,7 +12,6 @@ body {
   color: #fff;
 }
 
-}
 .navbar.navbar-fixed-top.navbar-light.bg-faded {
   margin: 0;
   padding: 0;
@@ -133,9 +132,14 @@ color: #EB5757;
   color: #EB5757;
 }
 
-.itil, .pm {
+.itil, .pm, .rails-icon, .css-icon, .html-icon, .bootstrap-icon, .git-icon, .gihub-icon, .trello-icon, .atom-icon {
   float: inherit;
   text-align: center;
+  display: inline-block;
+}
+
+.css-icon, .html-icon, .bootstrap-icon, .git-icon, .trello-icon, .github-icon {
+  float: left;
 }
 
 .lead {
@@ -205,7 +209,6 @@ color: #EB5757;
 
 .card p {
   font-size: 12px;
-  display: block;
   text-align: center;
 }
 
