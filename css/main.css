@@ -8,10 +8,6 @@ body {
   position:relative;
 }
 
-.display-3 h1 {
-  color: #fff;
-}
-
 .navbar.navbar-fixed-top.navbar-light.bg-faded {
   margin: 0;
   padding: 0;
@@ -77,17 +73,8 @@ color: #EB5757;
   text-decoration: none;
 }
 
-.jumbotron.jumbotron-fluid {
-  height: 850px;
-  background-image: url(../images/home-page-bg.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  margin: 0;
-  border-radius: 0px;
-}
-
 .jumbotron.j2.jumbotron-fluid {
-  height: 850px;
+  height: 870px;
   background: url(../images/about-page-bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -103,7 +90,7 @@ color: #EB5757;
 }
 
 .jumbotron.j4.jumbotron-fluid {
-  height:795px;
+  height: 795px;
   background: url(../images/contact-page-bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -129,7 +116,7 @@ color: #EB5757;
 }
 
 .jumbotron.j4 h1 {
-  color: #EB5757;
+  color: #fff;
 }
 
 .itil, .pm, .rails-icon, .css-icon, .html-icon, .bootstrap-icon, .git-icon, .gihub-icon, .trello-icon, .atom-icon {
@@ -149,7 +136,7 @@ color: #EB5757;
 .lead.l1 {
   color: #EB5757;
   font-size: 30px;
-  text-align: center;;
+  text-align: center;
 }
 
 .lead.l1b {
@@ -172,18 +159,13 @@ color: #EB5757;
 }
 
 .lead.l4 {
-  color: #fff;
+  color: #EB5757;
   font-size: 30px;
 }
 
 .lead.l4b {
-  color: #fff;
+  color: #EB5757;
   font-size: 20px;
-}
-
-.text-box {
-  background-color: rgba(242,201,76,0.3);
-  border-radius: 8px;
 }
 
 .card-title {
