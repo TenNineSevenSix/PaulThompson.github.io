@@ -68,13 +68,13 @@ color: #EB5757;
 
 .leadership {
   text-align: center;
-  font-size: 20px;
   border-radius: 3px;
   margin-top: 10px;
+  font-size: 20px;
 }
 
 .display-4 {
-  font-size: 40px;
+  font-size: 35px;
 }
 
 .fa.fa-github, .fa.fa-linkedin-square, .fa.fa-mobile {
@@ -156,12 +156,12 @@ color: #EB5757;
 
 .lead.l2 {
   color: #fff;
-  font-size: 30px;
+  font-size: 35px;
 }
 
 .lead.l2b {
   color: #fff;
-  font-size: 18px;
+  font-size: 23px;
 }
 
 .lead.l3 {
@@ -175,7 +175,7 @@ color: #EB5757;
 
 .lead.l4b {
   color: #EB5757;
-  font-size: 20px;
+  font-size: 23px;
 }
 
 .card-title {
