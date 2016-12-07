@@ -133,7 +133,6 @@ color: #EB5757;
 .itil, .pm, .rails-icon, .css-icon, .html-icon, .bootstrap-icon, .git-icon, .gihub-icon, .trello-icon, .atom-icon {
   float: inherit;
   text-align: center;
-  display: inline-block;
 }
 
 .css-icon, .html-icon, .bootstrap-icon, .git-icon, .trello-icon, .github-icon {
