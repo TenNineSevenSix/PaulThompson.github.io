@@ -103,8 +103,7 @@ color: #EB5757;
 .jumbotron.j4.jumbotron-fluid {
   height: 795px;
   background: url(../images/contact-page-bg.jpg);
-  background-color: #0f2230;
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   background-position: center;
   border-radius: 0px;
 
