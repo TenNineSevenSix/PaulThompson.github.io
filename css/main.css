@@ -1,12 +1,15 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
 
-
 * {
   font-family: 'Open Sans', sans-serif;
 }
 
 body {
   position:relative;
+}
+.container {
+
+  max-width:  1440px;
 }
 
 .navbar.navbar-fixed-top.navbar-light.bg-faded {
@@ -87,10 +90,11 @@ color: #EB5757;
 
 .jumbotron {
   background-color: transparent;
+  padding-top: 5px;
 }
 
 
-.jumbotron.j2 {
+.j2 {
   height: 870px;
   background: url(../images/about-page-bg.jpg);
   background-color: #69707a;
@@ -99,7 +103,7 @@ color: #EB5757;
   border-radius: 0px;
 }
 
-.jumbotron.j3 {
+.j3 {
   height: 850px;
   background: url(../images/skills-page-bg.jpeg);
   background-repeat: no-repeat;
@@ -107,7 +111,7 @@ color: #EB5757;
   border-radius: 0px;
 }
 
-.jumbotron.j4 {
+.j4 {
   height: 795px;
   background: url(../images/contact-page-bg.jpg);
   background-color: #0f2230;
