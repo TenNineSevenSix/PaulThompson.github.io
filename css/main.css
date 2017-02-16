@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
 
+
 * {
   font-family: 'Open Sans', sans-serif;
 }
@@ -84,15 +85,21 @@ color: #EB5757;
   text-decoration: none;
 }
 
-.jumbotron.j2.jumbotron-fluid {
+.jumbotron {
+  background-color: transparent;
+}
+
+
+.jumbotron.j2 {
   height: 870px;
   background: url(../images/about-page-bg.jpg);
+  background-color: #69707a;
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 0px;
 }
 
-.jumbotron.j3.jumbotron-fluid {
+.jumbotron.j3 {
   height: 850px;
   background: url(../images/skills-page-bg.jpeg);
   background-repeat: no-repeat;
@@ -100,18 +107,14 @@ color: #EB5757;
   border-radius: 0px;
 }
 
-.jumbotron.j4.jumbotron-fluid {
+.jumbotron.j4 {
   height: 795px;
   background: url(../images/contact-page-bg.jpg);
+  background-color: #0f2230;
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 0px;
 
-}
-
-.jumbotron-fluid {
-  padding-left: 50px;
-  padding-right: 50px;
 }
 
 .jumbotron h1 {
@@ -176,6 +179,7 @@ color: #EB5757;
 .lead.l4b {
   color: #EB5757;
   font-size: 23px;
+
 }
 
 .card-title {
