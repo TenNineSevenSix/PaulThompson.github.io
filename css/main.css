@@ -10,6 +10,7 @@ body {
 .container {
 
   max-width:  1440px;
+  padding: 0px;
 }
 
 .navbar.navbar-fixed-top.navbar-light.bg-faded {
