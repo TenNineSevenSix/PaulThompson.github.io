@@ -67,4 +67,4 @@ I add `description`, `author`, `social media description` and `title` meta tags 
 
 ## Live Website
 
-https://tenninesevensix.github.io/PaulThompson.github.io/
+[My Profile Website](https://tenninesevensix.github.io/PaulThompson.github.io)
